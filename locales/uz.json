@@ -1,0 +1,96 @@
+{
+  "start": {
+    "select_country": "🌍 <b>Xush kelibsiz!</b>\n\nDavom etish uchun mamlakatni tanlang:",
+    "search_prompt": "🔍 Mamlakat nomini kiriting:",
+    "search_results": "{{count}} ta natija topildi. Mamlakatni tanlang:",
+    "search_not_found": "❌ <b>{{query}}</b> bo'yicha mamlakat topilmadi.\n\nQayta urinib ko'ring."
+  },
+  "main": {
+    "welcome": "📺 <b>{{botName}}</b>\n\nTelegram ichida istalgan davlatning jonli telekanallarini tomosha qiling!\n\nBoshlash uchun quyidagi tugmani bosing:"
+  },
+  "buttons": {
+    "watch_tv": "📺 TV tomosha qilish",
+    "back": "◀️ Orqaga",
+    "cancel": "❌ Bekor qilish",
+    "search": "🔍 Qidirish",
+    "close": "✖️ Yopish",
+    "next": "▶️ Keyingi",
+    "prev": "◀️ Oldingi",
+    "confirm": "✅ Tasdiqlash",
+    "refresh": "🔄 Yangilash"
+  },
+  "help": {
+    "text": "ℹ️ <b>Yordam</b>\n\n<b>Buyruqlar:</b>\n/start — Botni ishga tushirish va til tanlash\n/help — Yordam xabarini ko'rish\n/about — Bot haqida\n/language — Tilni o'zgartirish\n/ping — Bot holatini tekshirish\n\n<b>Qanday foydalanish:</b>\n1. /start ni bosing\n2. Mamlakatni tanlang\n3. <b>📺 TV tomosha qilish</b> tugmasini bosing\n4. Jonli kanallardan bahramand bo'ling!\n\nMuammo bormi? @support ga murojaat qiling"
+  },
+  "about": {
+    "text": "📺 <b>{{botName}}</b>\n\n<b>Versiya:</b> {{version}}\n<b>Platforma:</b> Telegram Web App\n\nDunyo bo'ylab jonli telekanallarni Telegram ichida tomosha qiling.\n\n<a href=\"https://famelack.com\">famelack.com</a> tomonidan ishlab chiqilgan"
+  },
+  "language": {
+    "select": "🌐 <b>Tilni tanlang</b>\n\nO'zingizga qulay tilni tanlang:",
+    "changed": "✅ Til <b>O'zbekcha</b> ga o'zgartirildi",
+    "changed_notify": "Til o'zgartirildi!"
+  },
+  "ping": {
+    "measuring": "⏱ O'lchanmoqda...",
+    "result": "🏓 <b>Pong!</b>\n\n⚡ Kechikish: <b>{{latency}}ms</b>\n⏱ Ishlash vaqti: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 Versiya: <b>{{version}}</b>"
+  },
+  "errors": {
+    "banned": "🚫 Siz bu botdan bloklangansiz.",
+    "not_admin": "⛔ Kirish taqiqlangan. Faqat adminlar uchun.",
+    "generic": "⚠️ Xatolik yuz berdi. Qayta urinib ko'ring.",
+    "flood_wait": "⏳ Juda ko'p xabar! Iltimos, sekinroq yuboring.",
+    "rate_limit": "⏳ Juda ko'p so'rov. Iltimos, {{seconds}} soniya kuting."
+  },
+  "admin": {
+    "panel_title": "⚙️ <b>Admin Panel</b>\n\nAmalni tanlang:",
+    "btn_stats": "📊 Statistika",
+    "btn_broadcast": "📢 Xabar yuborish",
+    "btn_users": "👥 Foydalanuvchilar",
+    "btn_analytics": "📈 Analitika",
+    "btn_ban": "🚫 Bloklash",
+    "btn_unban": "✅ Blokdan chiqarish",
+    "btn_search_user": "🔍 Foydalanuvchi izlash",
+    "btn_send_msg": "📨 Xabar yuborish",
+    "btn_mandatory_channel": "📡 Kanal ulash",
+    "btn_settings": "⚙️ Sozlamalar",
+    "btn_db": "📂 Ma'lumotlar bazasi",
+    "btn_logs": "📝 Loglar",
+    "btn_restart": "♻️ Qayta ishga tushirish",
+    "btn_backup": "💾 Zaxira nusxa",
+    "btn_export": "📤 Foydalanuvchilarni eksport",
+    "btn_cache": "🔄 Keshni yangilash",
+    "btn_close": "✖️ Yopish",
+    "btn_confirm_broadcast": "✅ Xabar yuborishni tasdiqlash",
+    "stats_text": "📊 <b>Statistika</b>\n\n👥 <b>Foydalanuvchilar</b>\n├ Jami: <b>{{total}}</b>\n├ Bugun: <b>{{today}}</b>\n├ Kecha: <b>{{yesterday}}</b>\n├ Hafta: <b>{{weekly}}</b>\n└ Oy: <b>{{monthly}}</b>\n\n🟢 <b>Faol</b>\n├ Bugun: <b>{{activeToday}}</b>\n├ Bu hafta: <b>{{activeWeek}}</b>\n└ Bu oy: <b>{{activeMonth}}</b>\n\n🚫 Bloklangan: <b>{{banned}}</b>\n⭐ Premium: <b>{{premium}}</b>\n\n💾 DB hajmi: <b>{{dbSize}}</b>\n⏱ Ishlash vaqti: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 Versiya: <b>{{version}}</b>",
+    "analytics_text": "📈 <b>Analitika</b>\n\n👥 Jami foydalanuvchilar: <b>{{total}}</b>\n⭐ Premium: <b>{{premium}}</b>\n🚫 Bloklangan: <b>{{banned}}</b>\n\n🟢 Bugun faol: <b>{{activeToday}}</b>\n📅 Bu hafta faol: <b>{{activeWeek}}</b>\n📆 Bu oy faol: <b>{{activeMonth}}</b>",
+    "users_list": "👥 <b>Foydalanuvchilar</b> (jami {{total}})\n\nBatafsil ko'rish uchun tanlang:",
+    "user_info": "👤 <b>Foydalanuvchi ma'lumoti</b>\n\n🆔 ID: <code>{{id}}</code>\n👤 Ism: <b>{{name}}</b>\n📛 Username: {{username}}\n🌐 Til: <b>{{language}}</b>\n🌍 Mamlakat: <b>{{country}}</b>\n📅 Qo'shilgan: <b>{{joinDate}}</b>\n🕐 Oxirgi faollik: <b>{{lastSeen}}</b>\n🚫 Bloklangan: {{banned}}\n⭐ Premium: {{premium}}\n📊 Amallar: <b>{{actions}}</b>",
+    "user_not_found": "❌ Foydalanuvchi topilmadi.",
+    "invalid_id": "❌ Noto'g'ri ID. Raqamli ID kiriting.",
+    "ban_prompt": "🚫 Bloklash uchun foydalanuvchi ID sini kiriting (ixtiyoriy: sabab qo'shing):\n\nMisol: <code>123456789 spam</code>",
+    "ban_success": "✅ Foydalanuvchi <code>{{id}}</code> bloklandi.",
+    "unban_prompt": "✅ Blokdan chiqarish uchun foydalanuvchi ID sini kiriting:",
+    "unban_success": "✅ Foydalanuvchi <code>{{id}}</code> blokdan chiqarildi.",
+    "search_user_prompt": "🔍 Foydalanuvchi ID, username yoki ismini kiriting:",
+    "send_msg_prompt": "📨 Xabar yuboriladigan foydalanuvchi ID sini kiriting:",
+    "send_msg_content_prompt": "📨 Endi foydalanuvchiga yuboriladigan xabarni yuboring:",
+    "send_msg_success": "✅ Xabar foydalanuvchi <code>{{id}}</code> ga yuborildi.",
+    "send_msg_failed": "❌ Foydalanuvchi <code>{{id}}</code> ga xabar yuborib bo'lmadi: {{error}}",
+    "broadcast_prompt": "📢 Barcha foydalanuvchilarga yuboriladigan xabarni yuboring:\n\nQo'llab-quvvatlanadi: matn, rasm, video, audio, ovozli xabar, animatsiya, stiker, hujjat, so'rovnoma va boshqalar.",
+    "broadcast_confirm": "📢 <b>Xabar yuborishni tasdiqlash</b>\n\nXabar <b>{{total}}</b> ta foydalanuvchiga yuboriladi.\n\nRostan ham xohlaysizmi?",
+    "broadcast_expired": "⚠️ Xabar yuborish sessiyasi tugadi. Qaytadan boshlang.",
+    "broadcast_started": "📢 <b>{{total}}</b> ta foydalanuvchiga xabar yuborilmoqda...\n\nIltimos, kuting.",
+    "broadcast_progress": "📢 <b>Yuborilmoqda...</b>\n\n{{bar}}\n\n✅ Muvaffaqiyatli: <b>{{success}}</b>\n❌ Muvaffaqiyatsiz: <b>{{failed}}</b>\n📊 Jarayon: <b>{{done}}/{{total}}</b>",
+    "broadcast_done": "✅ <b>Xabar yuborish yakunlandi!</b>\n\n📊 Jami: <b>{{total}}</b>\n✅ Muvaffaqiyatli: <b>{{success}}</b>\n❌ Muvaffaqiyatsiz: <b>{{failed}}</b>",
+    "broadcast_cancelled": "❌ Xabar yuborish bekor qilindi.",
+    "restart_notice": "♻️ Bot qayta ishga tushirilmoqda...",
+    "restarting": "Qayta ishga tushirilmoqda...",
+    "cache_cleared": "✅ Kesh tozalandi va tillar qayta yuklandi.",
+    "db_info": "📂 <b>Ma'lumotlar bazasi</b>\n\n💾 Hajm: <b>{{dbSize}}</b>\n📦 Versiya: <b>{{version}}</b>",
+    "logs_info": "📝 <b>Log fayllari</b>\n\n{{files}}",
+    "backup_info": "💾 <b>Zaxira nusxa</b>\n\n📁 Yo'l: <code>{{path}}</code>\n💾 Hajm: <b>{{size}}</b>\n\nMa'lumotlar bazasini nusxalash uchun server vositalaridan foydalaning.",
+    "export_done": "📤 <b>{{count}}</b> ta foydalanuvchi CSV ga eksport qilindi.",
+    "mandatory_info": "📡 <b>Majburiy kanal</b>\n\nMANDATORY_CHANNEL ni .env faylida sozlang.",
+    "settings_info": "⚙️ <b>Sozlamalar</b>\n\n🌐 Web App: <code>{{webAppUrl}}</code>\n🤖 Bot nomi: <b>{{botName}}</b>\n📝 Log darajasi: <b>{{logLevel}}</b>\n🖥 Muhit: <b>{{nodeEnv}}</b>"
+  }
+}

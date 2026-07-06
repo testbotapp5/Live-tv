@@ -1,0 +1,96 @@
+{
+  "start": {
+    "select_country": "🌍 <b>خوش آمدید!</b>\n\nلطفاً برای ادامه کشور خود را انتخاب کنید:",
+    "search_prompt": "🔍 نام کشور را برای جستجو تایپ کنید:",
+    "search_results": "{{count}} نتیجه پیدا شد. کشور خود را انتخاب کنید:",
+    "search_not_found": "❌ هیچ کشوری برای <b>{{query}}</b> پیدا نشد.\n\nلطفاً دوباره امتحان کنید."
+  },
+  "main": {
+    "welcome": "📺 <b>{{botName}}</b>\n\nکانال‌های تلویزیون زنده از هر کشوری را مستقیماً در Telegram تماشا کنید!\n\nبرای شروع تماشا دکمه زیر را فشار دهید:"
+  },
+  "buttons": {
+    "watch_tv": "📺 تماشای TV",
+    "back": "◀️ بازگشت",
+    "cancel": "❌ لغو",
+    "search": "🔍 جستجو",
+    "close": "✖️ بستن",
+    "next": "▶️ بعدی",
+    "prev": "◀️ قبلی",
+    "confirm": "✅ تأیید",
+    "refresh": "🔄 بروزرسانی"
+  },
+  "help": {
+    "text": "ℹ️ <b>راهنما</b>\n\n<b>دستورات:</b>\n/start — شروع ربات و انتخاب زبان\n/help — نمایش این پیام راهنما\n/about — درباره این ربات\n/language — تغییر زبان\n/ping — بررسی وضعیت ربات\n\n<b>نحوه استفاده:</b>\n1. /start را فشار دهید\n2. کشور خود را انتخاب کنید\n3. <b>📺 تماشای TV</b> را لمس کنید\n4. از کانال‌های زنده لذت ببرید!"
+  },
+  "about": {
+    "text": "📺 <b>{{botName}}</b>\n\n<b>نسخه:</b> {{version}}\n<b>پلتفرم:</b> Telegram Web App\n\nکانال‌های تلویزیون زنده از سراسر جهان را مستقیماً در Telegram تماشا کنید.\n\nتوسط <a href=\"https://famelack.com\">famelack.com</a> پشتیبانی می‌شود"
+  },
+  "language": {
+    "select": "🌐 <b>انتخاب زبان</b>\n\nزبان مورد نظر خود را انتخاب کنید:",
+    "changed": "✅ زبان به <b>فارسی</b> تغییر یافت",
+    "changed_notify": "زبان تغییر یافت!"
+  },
+  "ping": {
+    "measuring": "⏱ در حال اندازه‌گیری...",
+    "result": "🏓 <b>پونگ!</b>\n\n⚡ تأخیر: <b>{{latency}}ms</b>\n⏱ مدت اجرا: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 نسخه: <b>{{version}}</b>"
+  },
+  "errors": {
+    "banned": "🚫 شما از استفاده این ربات محروم شده‌اید.",
+    "not_admin": "⛔ دسترسی رد شد. فقط مدیران.",
+    "generic": "⚠️ مشکلی پیش آمد. لطفاً دوباره امتحان کنید.",
+    "flood_wait": "⏳ پیام‌های زیادی! لطفاً کمی صبر کنید.",
+    "rate_limit": "⏳ درخواست‌های زیاد. لطفاً {{seconds}} ثانیه صبر کنید."
+  },
+  "admin": {
+    "panel_title": "⚙️ <b>پنل مدیریت</b>\n\nیک عملیات انتخاب کنید:",
+    "btn_stats": "📊 آمار",
+    "btn_broadcast": "📢 پخش همگانی",
+    "btn_users": "👥 کاربران",
+    "btn_analytics": "📈 تحلیل",
+    "btn_ban": "🚫 مسدود کردن",
+    "btn_unban": "✅ رفع مسدودیت",
+    "btn_search_user": "🔍 جستجوی کاربر",
+    "btn_send_msg": "📨 ارسال پیام",
+    "btn_mandatory_channel": "📡 کانال اجباری",
+    "btn_settings": "⚙️ تنظیمات",
+    "btn_db": "📂 پایگاه داده",
+    "btn_logs": "📝 گزارش‌ها",
+    "btn_restart": "♻️ راه‌اندازی مجدد",
+    "btn_backup": "💾 پشتیبان‌گیری",
+    "btn_export": "📤 صادرات کاربران",
+    "btn_cache": "🔄 به‌روزرسانی کش",
+    "btn_close": "✖️ بستن",
+    "btn_confirm_broadcast": "✅ تأیید پخش همگانی",
+    "stats_text": "📊 <b>آمار</b>\n\n👥 <b>کاربران</b>\n├ کل: <b>{{total}}</b>\n├ امروز: <b>{{today}}</b>\n├ دیروز: <b>{{yesterday}}</b>\n├ هفتگی: <b>{{weekly}}</b>\n└ ماهانه: <b>{{monthly}}</b>\n\n🟢 <b>فعال</b>\n├ امروز: <b>{{activeToday}}</b>\n├ این هفته: <b>{{activeWeek}}</b>\n└ این ماه: <b>{{activeMonth}}</b>\n\n🚫 مسدود: <b>{{banned}}</b>\n⭐ پریمیوم: <b>{{premium}}</b>\n\n💾 حجم DB: <b>{{dbSize}}</b>\n⏱ مدت اجرا: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 نسخه: <b>{{version}}</b>",
+    "analytics_text": "📈 <b>تحلیل</b>\n\n👥 کل کاربران: <b>{{total}}</b>\n⭐ پریمیوم: <b>{{premium}}</b>\n🚫 مسدود: <b>{{banned}}</b>\n\n🟢 فعال امروز: <b>{{activeToday}}</b>\n📅 فعال این هفته: <b>{{activeWeek}}</b>\n📆 فعال این ماه: <b>{{activeMonth}}</b>",
+    "users_list": "👥 <b>کاربران</b> (کل {{total}})\n\nبرای مشاهده جزئیات انتخاب کنید:",
+    "user_info": "👤 <b>اطلاعات کاربر</b>\n\n🆔 شناسه: <code>{{id}}</code>\n👤 نام: <b>{{name}}</b>\n📛 نام کاربری: {{username}}\n🌐 زبان: <b>{{language}}</b>\n🌍 کشور: <b>{{country}}</b>\n📅 تاریخ عضویت: <b>{{joinDate}}</b>\n🕐 آخرین بازدید: <b>{{lastSeen}}</b>\n🚫 مسدود: {{banned}}\n⭐ پریمیوم: {{premium}}\n📊 عملیات: <b>{{actions}}</b>",
+    "user_not_found": "❌ کاربر پیدا نشد.",
+    "invalid_id": "❌ شناسه نامعتبر. لطفاً یک شناسه عددی معتبر وارد کنید.",
+    "ban_prompt": "🚫 شناسه کاربر برای مسدود کردن وارد کنید (به صورت اختیاری دلیل اضافه کنید):\n\nمثال: <code>123456789 spam</code>",
+    "ban_success": "✅ کاربر <code>{{id}}</code> مسدود شد.",
+    "unban_prompt": "✅ شناسه کاربر برای رفع مسدودیت وارد کنید:",
+    "unban_success": "✅ مسدودیت کاربر <code>{{id}}</code> رفع شد.",
+    "search_user_prompt": "🔍 شناسه کاربر، نام کاربری یا نام وارد کنید:",
+    "send_msg_prompt": "📨 شناسه کاربر هدف را وارد کنید:",
+    "send_msg_content_prompt": "📨 اکنون پیامی که می‌خواهید به این کاربر ارسال کنید را بفرستید:",
+    "send_msg_success": "✅ پیام به کاربر <code>{{id}}</code> ارسال شد.",
+    "send_msg_failed": "❌ ارسال پیام به <code>{{id}}</code> ناموفق بود: {{error}}",
+    "broadcast_prompt": "📢 پیامی که می‌خواهید برای همه کاربران پخش کنید را بفرستید:\n\nپشتیبانی شده: متن، عکس، ویدیو، صدا، پیام صوتی، انیمیشن، استیکر، سند، نظرسنجی و بیشتر.",
+    "broadcast_confirm": "📢 <b>تأیید پخش همگانی</b>\n\nپیام به <b>{{total}}</b> کاربر ارسال می‌شود.\n\nآیا مطمئن هستید؟",
+    "broadcast_expired": "⚠️ جلسه پخش همگانی منقضی شد. لطفاً دوباره شروع کنید.",
+    "broadcast_started": "📢 در حال پخش برای <b>{{total}}</b> کاربر...\n\nلطفاً صبر کنید.",
+    "broadcast_progress": "📢 <b>در حال پخش...</b>\n\n{{bar}}\n\n✅ موفق: <b>{{success}}</b>\n❌ ناموفق: <b>{{failed}}</b>\n📊 پیشرفت: <b>{{done}}/{{total}}</b>",
+    "broadcast_done": "✅ <b>پخش همگانی کامل شد!</b>\n\n📊 کل: <b>{{total}}</b>\n✅ موفق: <b>{{success}}</b>\n❌ ناموفق: <b>{{failed}}</b>",
+    "broadcast_cancelled": "❌ پخش همگانی لغو شد.",
+    "restart_notice": "♻️ ربات در حال راه‌اندازی مجدد...",
+    "restarting": "در حال راه‌اندازی مجدد...",
+    "cache_cleared": "✅ کش پاک شد و زبان‌ها مجدداً بارگذاری شدند.",
+    "db_info": "📂 <b>اطلاعات پایگاه داده</b>\n\n💾 حجم: <b>{{dbSize}}</b>\n📦 نسخه: <b>{{version}}</b>",
+    "logs_info": "📝 <b>فایل‌های گزارش</b>\n\n{{files}}",
+    "backup_info": "💾 <b>پشتیبان‌گیری پایگاه داده</b>\n\n📁 مسیر: <code>{{path}}</code>\n💾 حجم: <b>{{size}}</b>",
+    "export_done": "📤 <b>{{count}}</b> کاربر به CSV صادر شد.",
+    "mandatory_info": "📡 <b>کانال اجباری</b>\n\nMANDATORY_CHANNEL را در فایل .env تنظیم کنید.",
+    "settings_info": "⚙️ <b>تنظیمات</b>\n\n🌐 Web App: <code>{{webAppUrl}}</code>\n🤖 نام ربات: <b>{{botName}}</b>\n📝 سطح گزارش: <b>{{logLevel}}</b>\n🖥 محیط: <b>{{nodeEnv}}</b>"
+  }
+}

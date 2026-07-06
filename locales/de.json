@@ -1,0 +1,96 @@
+{
+  "start": {
+    "select_country": "🌍 <b>Willkommen!</b>\n\nBitte wählen Sie Ihr Land aus, um fortzufahren:",
+    "search_prompt": "🔍 Ländernamen eingeben:",
+    "search_results": "{{count}} Ergebnis(se) gefunden. Wählen Sie Ihr Land:",
+    "search_not_found": "❌ Kein Land für <b>{{query}}</b> gefunden.\n\nBitte versuchen Sie es erneut."
+  },
+  "main": {
+    "welcome": "📺 <b>{{botName}}</b>\n\nSchauen Sie Live-TV-Kanäle aus jedem Land direkt in Telegram!\n\nDrücken Sie die Schaltfläche unten, um mit dem Anschauen zu beginnen:"
+  },
+  "buttons": {
+    "watch_tv": "📺 TV ansehen",
+    "back": "◀️ Zurück",
+    "cancel": "❌ Abbrechen",
+    "search": "🔍 Suchen",
+    "close": "✖️ Schließen",
+    "next": "▶️ Weiter",
+    "prev": "◀️ Zurück",
+    "confirm": "✅ Bestätigen",
+    "refresh": "🔄 Aktualisieren"
+  },
+  "help": {
+    "text": "ℹ️ <b>Hilfe</b>\n\n<b>Befehle:</b>\n/start — Bot starten und Sprache wählen\n/help — Diese Hilfenachricht anzeigen\n/about — Über diesen Bot\n/language — Sprache ändern\n/ping — Bot-Status prüfen\n\n<b>Verwendung:</b>\n1. Drücken Sie /start\n2. Wählen Sie Ihr Land\n3. Tippen Sie auf <b>📺 TV ansehen</b>\n4. Genießen Sie Live-Kanäle!"
+  },
+  "about": {
+    "text": "📺 <b>{{botName}}</b>\n\n<b>Version:</b> {{version}}\n<b>Plattform:</b> Telegram Web App\n\nSchauen Sie Live-TV-Kanäle aus aller Welt direkt in Telegram.\n\nBetrieben von <a href=\"https://famelack.com\">famelack.com</a>"
+  },
+  "language": {
+    "select": "🌐 <b>Sprache wählen</b>\n\nWählen Sie Ihre bevorzugte Sprache:",
+    "changed": "✅ Sprache auf <b>Deutsch</b> geändert",
+    "changed_notify": "Sprache geändert!"
+  },
+  "ping": {
+    "measuring": "⏱ Messe...",
+    "result": "🏓 <b>Pong!</b>\n\n⚡ Latenz: <b>{{latency}}ms</b>\n⏱ Betriebszeit: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 Version: <b>{{version}}</b>"
+  },
+  "errors": {
+    "banned": "🚫 Sie wurden von der Nutzung dieses Bots gesperrt.",
+    "not_admin": "⛔ Zugriff verweigert. Nur für Administratoren.",
+    "generic": "⚠️ Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "flood_wait": "⏳ Zu viele Nachrichten! Bitte verlangsamen Sie sich.",
+    "rate_limit": "⏳ Zu viele Anfragen. Bitte warten Sie {{seconds}} Sekunden."
+  },
+  "admin": {
+    "panel_title": "⚙️ <b>Admin-Panel</b>\n\nAktion auswählen:",
+    "btn_stats": "📊 Statistiken",
+    "btn_broadcast": "📢 Broadcast",
+    "btn_users": "👥 Benutzer",
+    "btn_analytics": "📈 Analytik",
+    "btn_ban": "🚫 Sperren",
+    "btn_unban": "✅ Entsperren",
+    "btn_search_user": "🔍 Benutzer suchen",
+    "btn_send_msg": "📨 Nachricht senden",
+    "btn_mandatory_channel": "📡 Pflichtkanal",
+    "btn_settings": "⚙️ Einstellungen",
+    "btn_db": "📂 Datenbank",
+    "btn_logs": "📝 Protokolle",
+    "btn_restart": "♻️ Neustart",
+    "btn_backup": "💾 Sicherung",
+    "btn_export": "📤 Benutzer exportieren",
+    "btn_cache": "🔄 Cache leeren",
+    "btn_close": "✖️ Schließen",
+    "btn_confirm_broadcast": "✅ Broadcast bestätigen",
+    "stats_text": "📊 <b>Statistiken</b>\n\n👥 <b>Benutzer</b>\n├ Gesamt: <b>{{total}}</b>\n├ Heute: <b>{{today}}</b>\n├ Gestern: <b>{{yesterday}}</b>\n├ Wöchentlich: <b>{{weekly}}</b>\n└ Monatlich: <b>{{monthly}}</b>\n\n🟢 <b>Aktiv</b>\n├ Heute: <b>{{activeToday}}</b>\n├ Diese Woche: <b>{{activeWeek}}</b>\n└ Diesen Monat: <b>{{activeMonth}}</b>\n\n🚫 Gesperrt: <b>{{banned}}</b>\n⭐ Premium: <b>{{premium}}</b>\n\n💾 DB-Größe: <b>{{dbSize}}</b>\n⏱ Betriebszeit: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 Version: <b>{{version}}</b>",
+    "analytics_text": "📈 <b>Analytik</b>\n\n👥 Gesamtbenutzer: <b>{{total}}</b>\n⭐ Premium: <b>{{premium}}</b>\n🚫 Gesperrt: <b>{{banned}}</b>\n\n🟢 Heute aktiv: <b>{{activeToday}}</b>\n📅 Diese Woche aktiv: <b>{{activeWeek}}</b>\n📆 Diesen Monat aktiv: <b>{{activeMonth}}</b>",
+    "users_list": "👥 <b>Benutzer</b> ({{total}} gesamt)\n\nBenutzer auswählen:",
+    "user_info": "👤 <b>Benutzerinfo</b>\n\n🆔 ID: <code>{{id}}</code>\n👤 Name: <b>{{name}}</b>\n📛 Benutzername: {{username}}\n🌐 Sprache: <b>{{language}}</b>\n🌍 Land: <b>{{country}}</b>\n📅 Beigetreten: <b>{{joinDate}}</b>\n🕐 Zuletzt gesehen: <b>{{lastSeen}}</b>\n🚫 Gesperrt: {{banned}}\n⭐ Premium: {{premium}}\n📊 Aktionen: <b>{{actions}}</b>",
+    "user_not_found": "❌ Benutzer nicht gefunden.",
+    "invalid_id": "❌ Ungültige ID. Bitte geben Sie eine gültige numerische ID ein.",
+    "ban_prompt": "🚫 Benutzer-ID zum Sperren eingeben (optional Grund hinzufügen):\n\nBeispiel: <code>123456789 spam</code>",
+    "ban_success": "✅ Benutzer <code>{{id}}</code> gesperrt.",
+    "unban_prompt": "✅ Benutzer-ID zum Entsperren eingeben:",
+    "unban_success": "✅ Benutzer <code>{{id}}</code> entsperrt.",
+    "search_user_prompt": "🔍 Benutzer-ID, Benutzername oder Name eingeben:",
+    "send_msg_prompt": "📨 Ziel-Benutzer-ID eingeben:",
+    "send_msg_content_prompt": "📨 Jetzt die Nachricht senden, die an diesen Benutzer weitergeleitet werden soll:",
+    "send_msg_success": "✅ Nachricht an Benutzer <code>{{id}}</code> gesendet.",
+    "send_msg_failed": "❌ Nachricht an <code>{{id}}</code> konnte nicht gesendet werden: {{error}}",
+    "broadcast_prompt": "📢 Nachricht zum Versenden an alle Benutzer senden:\n\nUnterstützt: Text, Foto, Video, Audio, Sprachnachricht, Animation, Aufkleber, Dokument, Umfrage und mehr.",
+    "broadcast_confirm": "📢 <b>Broadcast-Bestätigung</b>\n\nNachricht wird an <b>{{total}}</b> Benutzer gesendet.\n\nSind Sie sicher?",
+    "broadcast_expired": "⚠️ Broadcast-Sitzung abgelaufen. Bitte erneut starten.",
+    "broadcast_started": "📢 Broadcast an <b>{{total}}</b> Benutzer...\n\nBitte warten.",
+    "broadcast_progress": "📢 <b>Sende...</b>\n\n{{bar}}\n\n✅ Erfolgreich: <b>{{success}}</b>\n❌ Fehlgeschlagen: <b>{{failed}}</b>\n📊 Fortschritt: <b>{{done}}/{{total}}</b>",
+    "broadcast_done": "✅ <b>Broadcast abgeschlossen!</b>\n\n📊 Gesamt: <b>{{total}}</b>\n✅ Erfolgreich: <b>{{success}}</b>\n❌ Fehlgeschlagen: <b>{{failed}}</b>",
+    "broadcast_cancelled": "❌ Broadcast abgebrochen.",
+    "restart_notice": "♻️ Bot wird neu gestartet...",
+    "restarting": "Neustart...",
+    "cache_cleared": "✅ Cache geleert und Sprachen neu geladen.",
+    "db_info": "📂 <b>Datenbankinfo</b>\n\n💾 Größe: <b>{{dbSize}}</b>\n📦 Version: <b>{{version}}</b>",
+    "logs_info": "📝 <b>Protokolldateien</b>\n\n{{files}}",
+    "backup_info": "💾 <b>Datenbanksicherung</b>\n\n📁 Pfad: <code>{{path}}</code>\n💾 Größe: <b>{{size}}</b>",
+    "export_done": "📤 <b>{{count}}</b> Benutzer als CSV exportiert.",
+    "mandatory_info": "📡 <b>Pflichtkanal</b>\n\nMANDATORY_CHANNEL in der .env-Datei festlegen.",
+    "settings_info": "⚙️ <b>Einstellungen</b>\n\n🌐 Web App: <code>{{webAppUrl}}</code>\n🤖 Bot-Name: <b>{{botName}}</b>\n📝 Protokollstufe: <b>{{logLevel}}</b>\n🖥 Umgebung: <b>{{nodeEnv}}</b>"
+  }
+}

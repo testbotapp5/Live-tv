@@ -1,0 +1,96 @@
+{
+  "start": {
+    "select_country": "🌍 <b>欢迎！</b>\n\n请选择您的国家以继续：",
+    "search_prompt": "🔍 输入国家名称进行搜索：",
+    "search_results": "找到 {{count}} 个结果。请选择您的国家：",
+    "search_not_found": "❌ 未找到 <b>{{query}}</b> 的国家。\n\n请再试一次。"
+  },
+  "main": {
+    "welcome": "📺 <b>{{botName}}</b>\n\n在 Telegram 中直接观看来自任何国家的直播电视频道！\n\n按下面的按钮开始观看："
+  },
+  "buttons": {
+    "watch_tv": "📺 看电视",
+    "back": "◀️ 返回",
+    "cancel": "❌ 取消",
+    "search": "🔍 搜索",
+    "close": "✖️ 关闭",
+    "next": "▶️ 下一页",
+    "prev": "◀️ 上一页",
+    "confirm": "✅ 确认",
+    "refresh": "🔄 刷新"
+  },
+  "help": {
+    "text": "ℹ️ <b>帮助</b>\n\n<b>命令：</b>\n/start — 启动机器人并选择语言\n/help — 显示此帮助消息\n/about — 关于此机器人\n/language — 更改语言\n/ping — 检查机器人状态\n\n<b>使用方法：</b>\n1. 按 /start\n2. 选择您的国家\n3. 点击 <b>📺 看电视</b>\n4. 享受直播频道！"
+  },
+  "about": {
+    "text": "📺 <b>{{botName}}</b>\n\n<b>版本：</b> {{version}}\n<b>平台：</b> Telegram Web App\n\n在 Telegram 中直接观看来自全球的直播电视频道。\n\n由 <a href=\"https://famelack.com\">famelack.com</a> 提供支持"
+  },
+  "language": {
+    "select": "🌐 <b>选择语言</b>\n\n请选择您的首选语言：",
+    "changed": "✅ 语言已更改为<b>中文</b>",
+    "changed_notify": "语言已更改！"
+  },
+  "ping": {
+    "measuring": "⏱ 测量中...",
+    "result": "🏓 <b>乒乓！</b>\n\n⚡ 延迟: <b>{{latency}}ms</b>\n⏱ 运行时间: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 版本: <b>{{version}}</b>"
+  },
+  "errors": {
+    "banned": "🚫 您已被禁止使用此机器人。",
+    "not_admin": "⛔ 访问被拒绝。仅限管理员。",
+    "generic": "⚠️ 出了点问题。请再试一次。",
+    "flood_wait": "⏳ 消息太多！请放慢速度。",
+    "rate_limit": "⏳ 请求太多。请等待 {{seconds}} 秒。"
+  },
+  "admin": {
+    "panel_title": "⚙️ <b>管理面板</b>\n\n选择操作：",
+    "btn_stats": "📊 统计",
+    "btn_broadcast": "📢 广播",
+    "btn_users": "👥 用户",
+    "btn_analytics": "📈 分析",
+    "btn_ban": "🚫 封禁",
+    "btn_unban": "✅ 解封",
+    "btn_search_user": "🔍 搜索用户",
+    "btn_send_msg": "📨 发送消息",
+    "btn_mandatory_channel": "📡 必须频道",
+    "btn_settings": "⚙️ 设置",
+    "btn_db": "📂 数据库",
+    "btn_logs": "📝 日志",
+    "btn_restart": "♻️ 重启",
+    "btn_backup": "💾 备份",
+    "btn_export": "📤 导出用户",
+    "btn_cache": "🔄 刷新缓存",
+    "btn_close": "✖️ 关闭",
+    "btn_confirm_broadcast": "✅ 确认广播",
+    "stats_text": "📊 <b>统计</b>\n\n👥 <b>用户</b>\n├ 总计: <b>{{total}}</b>\n├ 今天: <b>{{today}}</b>\n├ 昨天: <b>{{yesterday}}</b>\n├ 本周: <b>{{weekly}}</b>\n└ 本月: <b>{{monthly}}</b>\n\n🟢 <b>活跃</b>\n├ 今天: <b>{{activeToday}}</b>\n├ 本周: <b>{{activeWeek}}</b>\n└ 本月: <b>{{activeMonth}}</b>\n\n🚫 封禁: <b>{{banned}}</b>\n⭐ 高级: <b>{{premium}}</b>\n\n💾 DB大小: <b>{{dbSize}}</b>\n⏱ 运行时间: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 版本: <b>{{version}}</b>",
+    "analytics_text": "📈 <b>分析</b>\n\n👥 总用户数: <b>{{total}}</b>\n⭐ 高级: <b>{{premium}}</b>\n🚫 封禁: <b>{{banned}}</b>\n\n🟢 今日活跃: <b>{{activeToday}}</b>\n📅 本周活跃: <b>{{activeWeek}}</b>\n📆 本月活跃: <b>{{activeMonth}}</b>",
+    "users_list": "👥 <b>用户</b> (共 {{total}} 人)\n\n选择用户查看详情：",
+    "user_info": "👤 <b>用户信息</b>\n\n🆔 ID: <code>{{id}}</code>\n👤 姓名: <b>{{name}}</b>\n📛 用户名: {{username}}\n🌐 语言: <b>{{language}}</b>\n🌍 国家: <b>{{country}}</b>\n📅 加入时间: <b>{{joinDate}}</b>\n🕐 最后在线: <b>{{lastSeen}}</b>\n🚫 封禁: {{banned}}\n⭐ 高级: {{premium}}\n📊 操作次数: <b>{{actions}}</b>",
+    "user_not_found": "❌ 未找到用户。",
+    "invalid_id": "❌ 无效的ID。请输入有效的数字ID。",
+    "ban_prompt": "🚫 输入要封禁的用户ID（可选添加原因）：\n\n示例: <code>123456789 spam</code>",
+    "ban_success": "✅ 用户 <code>{{id}}</code> 已封禁。",
+    "unban_prompt": "✅ 输入要解封的用户ID：",
+    "unban_success": "✅ 用户 <code>{{id}}</code> 已解封。",
+    "search_user_prompt": "🔍 输入用户ID、用户名或姓名：",
+    "send_msg_prompt": "📨 输入目标用户ID：",
+    "send_msg_content_prompt": "📨 现在发送您要转发给此用户的消息：",
+    "send_msg_success": "✅ 消息已发送给用户 <code>{{id}}</code>。",
+    "send_msg_failed": "❌ 向 <code>{{id}}</code> 发送消息失败：{{error}}",
+    "broadcast_prompt": "📢 发送您想要广播给所有用户的消息：\n\n支持：文本、图片、视频、音频、语音、动画、贴纸、文件、投票等。",
+    "broadcast_confirm": "📢 <b>广播确认</b>\n\n消息将发送给 <b>{{total}}</b> 位用户。\n\n您确定吗？",
+    "broadcast_expired": "⚠️ 广播会话已过期。请重新开始。",
+    "broadcast_started": "📢 正在向 <b>{{total}}</b> 位用户广播...\n\n请稍候。",
+    "broadcast_progress": "📢 <b>广播中...</b>\n\n{{bar}}\n\n✅ 成功: <b>{{success}}</b>\n❌ 失败: <b>{{failed}}</b>\n📊 进度: <b>{{done}}/{{total}}</b>",
+    "broadcast_done": "✅ <b>广播完成！</b>\n\n📊 总计: <b>{{total}}</b>\n✅ 成功: <b>{{success}}</b>\n❌ 失败: <b>{{failed}}</b>",
+    "broadcast_cancelled": "❌ 广播已取消。",
+    "restart_notice": "♻️ 机器人正在重启...",
+    "restarting": "重启中...",
+    "cache_cleared": "✅ 缓存已清除，语言已重新加载。",
+    "db_info": "📂 <b>数据库信息</b>\n\n💾 大小: <b>{{dbSize}}</b>\n📦 版本: <b>{{version}}</b>",
+    "logs_info": "📝 <b>日志文件</b>\n\n{{files}}",
+    "backup_info": "💾 <b>数据库备份</b>\n\n📁 路径: <code>{{path}}</code>\n💾 大小: <b>{{size}}</b>",
+    "export_done": "📤 已将 <b>{{count}}</b> 位用户导出为CSV。",
+    "mandatory_info": "📡 <b>必须频道</b>\n\n在 .env 文件中设置 MANDATORY_CHANNEL。",
+    "settings_info": "⚙️ <b>设置</b>\n\n🌐 Web App: <code>{{webAppUrl}}</code>\n🤖 机器人名称: <b>{{botName}}</b>\n📝 日志级别: <b>{{logLevel}}</b>\n🖥 环境: <b>{{nodeEnv}}</b>"
+  }
+}

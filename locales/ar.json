@@ -1,0 +1,96 @@
+{
+  "start": {
+    "select_country": "🌍 <b>مرحباً!</b>\n\nالرجاء اختيار دولتك للمتابعة:",
+    "search_prompt": "🔍 اكتب اسم الدولة للبحث:",
+    "search_results": "تم العثور على {{count}} نتيجة. اختر دولتك:",
+    "search_not_found": "❌ لم يتم العثور على دولة لـ <b>{{query}}</b>.\n\nالرجاء المحاولة مرة أخرى."
+  },
+  "main": {
+    "welcome": "📺 <b>{{botName}}</b>\n\nشاهد قنوات التلفزيون المباشر من أي دولة مباشرةً عبر Telegram!\n\nاضغط على الزر أدناه للبدء في المشاهدة:"
+  },
+  "buttons": {
+    "watch_tv": "📺 مشاهدة التلفاز",
+    "back": "◀️ رجوع",
+    "cancel": "❌ إلغاء",
+    "search": "🔍 بحث",
+    "close": "✖️ إغلاق",
+    "next": "▶️ التالي",
+    "prev": "◀️ السابق",
+    "confirm": "✅ تأكيد",
+    "refresh": "🔄 تحديث"
+  },
+  "help": {
+    "text": "ℹ️ <b>المساعدة</b>\n\n<b>الأوامر:</b>\n/start — بدء البوت واختيار اللغة\n/help — عرض هذه الرسالة\n/about — حول البوت\n/language — تغيير اللغة\n/ping — التحقق من حالة البوت\n\n<b>طريقة الاستخدام:</b>\n1. اضغط /start\n2. اختر دولتك\n3. اضغط <b>📺 مشاهدة التلفاز</b>\n4. استمتع بالقنوات المباشرة!"
+  },
+  "about": {
+    "text": "📺 <b>{{botName}}</b>\n\n<b>الإصدار:</b> {{version}}\n<b>المنصة:</b> تطبيق Telegram Web\n\nشاهد قنوات التلفزيون المباشر من جميع أنحاء العالم مباشرةً عبر Telegram.\n\nمدعوم بواسطة <a href=\"https://famelack.com\">famelack.com</a>"
+  },
+  "language": {
+    "select": "🌐 <b>اختر اللغة</b>\n\nاختر لغتك المفضلة:",
+    "changed": "✅ تم تغيير اللغة إلى <b>العربية</b>",
+    "changed_notify": "تم تغيير اللغة!"
+  },
+  "ping": {
+    "measuring": "⏱ جارٍ القياس...",
+    "result": "🏓 <b>بونج!</b>\n\n⚡ زمن الاستجابة: <b>{{latency}}ms</b>\n⏱ وقت التشغيل: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 الإصدار: <b>{{version}}</b>"
+  },
+  "errors": {
+    "banned": "🚫 لقد تم حظرك من استخدام هذا البوت.",
+    "not_admin": "⛔ تم رفض الوصول. للمسؤولين فقط.",
+    "generic": "⚠️ حدث خطأ ما. الرجاء المحاولة مرة أخرى.",
+    "flood_wait": "⏳ رسائل كثيرة جداً! الرجاء التباطؤ.",
+    "rate_limit": "⏳ طلبات كثيرة جداً. الرجاء الانتظار {{seconds}} ثانية."
+  },
+  "admin": {
+    "panel_title": "⚙️ <b>لوحة المسؤول</b>\n\nاختر إجراءً:",
+    "btn_stats": "📊 الإحصائيات",
+    "btn_broadcast": "📢 البث",
+    "btn_users": "👥 المستخدمون",
+    "btn_analytics": "📈 التحليلات",
+    "btn_ban": "🚫 حظر",
+    "btn_unban": "✅ رفع الحظر",
+    "btn_search_user": "🔍 بحث عن مستخدم",
+    "btn_send_msg": "📨 إرسال رسالة",
+    "btn_mandatory_channel": "📡 قناة إلزامية",
+    "btn_settings": "⚙️ الإعدادات",
+    "btn_db": "📂 قاعدة البيانات",
+    "btn_logs": "📝 السجلات",
+    "btn_restart": "♻️ إعادة التشغيل",
+    "btn_backup": "💾 نسخة احتياطية",
+    "btn_export": "📤 تصدير المستخدمين",
+    "btn_cache": "🔄 تحديث الذاكرة المؤقتة",
+    "btn_close": "✖️ إغلاق",
+    "btn_confirm_broadcast": "✅ تأكيد البث",
+    "stats_text": "📊 <b>الإحصائيات</b>\n\n👥 <b>المستخدمون</b>\n├ الإجمالي: <b>{{total}}</b>\n├ اليوم: <b>{{today}}</b>\n├ أمس: <b>{{yesterday}}</b>\n├ أسبوعي: <b>{{weekly}}</b>\n└ شهري: <b>{{monthly}}</b>\n\n🟢 <b>نشطون</b>\n├ اليوم: <b>{{activeToday}}</b>\n├ هذا الأسبوع: <b>{{activeWeek}}</b>\n└ هذا الشهر: <b>{{activeMonth}}</b>\n\n🚫 محظورون: <b>{{banned}}</b>\n⭐ مميزون: <b>{{premium}}</b>\n\n💾 حجم DB: <b>{{dbSize}}</b>\n⏱ وقت التشغيل: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 الإصدار: <b>{{version}}</b>",
+    "analytics_text": "📈 <b>التحليلات</b>\n\n👥 إجمالي المستخدمين: <b>{{total}}</b>\n⭐ مميزون: <b>{{premium}}</b>\n🚫 محظورون: <b>{{banned}}</b>\n\n🟢 نشطون اليوم: <b>{{activeToday}}</b>\n📅 نشطون هذا الأسبوع: <b>{{activeWeek}}</b>\n📆 نشطون هذا الشهر: <b>{{activeMonth}}</b>",
+    "users_list": "👥 <b>المستخدمون</b> (إجمالي {{total}})\n\nاختر مستخدماً لعرض التفاصيل:",
+    "user_info": "👤 <b>معلومات المستخدم</b>\n\n🆔 المعرف: <code>{{id}}</code>\n👤 الاسم: <b>{{name}}</b>\n📛 اسم المستخدم: {{username}}\n🌐 اللغة: <b>{{language}}</b>\n🌍 الدولة: <b>{{country}}</b>\n📅 تاريخ الانضمام: <b>{{joinDate}}</b>\n🕐 آخر ظهور: <b>{{lastSeen}}</b>\n🚫 محظور: {{banned}}\n⭐ مميز: {{premium}}\n📊 الإجراءات: <b>{{actions}}</b>",
+    "user_not_found": "❌ المستخدم غير موجود.",
+    "invalid_id": "❌ معرف غير صالح. الرجاء إدخال معرف رقمي صالح.",
+    "ban_prompt": "🚫 أدخل معرف المستخدم لحظره (يمكن إضافة السبب بعد مسافة):\n\nمثال: <code>123456789 spam</code>",
+    "ban_success": "✅ تم حظر المستخدم <code>{{id}}</code>.",
+    "unban_prompt": "✅ أدخل معرف المستخدم لرفع حظره:",
+    "unban_success": "✅ تم رفع حظر المستخدم <code>{{id}}</code>.",
+    "search_user_prompt": "🔍 أدخل معرف المستخدم أو اسم المستخدم أو الاسم:",
+    "send_msg_prompt": "📨 أدخل معرف المستخدم المستهدف:",
+    "send_msg_content_prompt": "📨 الآن أرسل الرسالة التي تريد إرسالها لهذا المستخدم:",
+    "send_msg_success": "✅ تم إرسال الرسالة إلى المستخدم <code>{{id}}</code>.",
+    "send_msg_failed": "❌ فشل إرسال الرسالة إلى <code>{{id}}</code>: {{error}}",
+    "broadcast_prompt": "📢 أرسل الرسالة التي تريد بثها لجميع المستخدمين:\n\nمدعوم: نص، صورة، فيديو، صوت، رسالة صوتية، رسوم متحركة، ملصق، مستند، استطلاع وغيرها.",
+    "broadcast_confirm": "📢 <b>تأكيد البث</b>\n\nسيتم إرسال الرسالة إلى <b>{{total}}</b> مستخدم.\n\nهل أنت متأكد؟",
+    "broadcast_expired": "⚠️ انتهت جلسة البث. يرجى البدء مجدداً.",
+    "broadcast_started": "📢 يتم البث إلى <b>{{total}}</b> مستخدم...\n\nيرجى الانتظار.",
+    "broadcast_progress": "📢 <b>جارٍ البث...</b>\n\n{{bar}}\n\n✅ ناجح: <b>{{success}}</b>\n❌ فاشل: <b>{{failed}}</b>\n📊 التقدم: <b>{{done}}/{{total}}</b>",
+    "broadcast_done": "✅ <b>اكتمل البث!</b>\n\n📊 الإجمالي: <b>{{total}}</b>\n✅ ناجح: <b>{{success}}</b>\n❌ فاشل: <b>{{failed}}</b>",
+    "broadcast_cancelled": "❌ تم إلغاء البث.",
+    "restart_notice": "♻️ جارٍ إعادة تشغيل البوت...",
+    "restarting": "إعادة التشغيل...",
+    "cache_cleared": "✅ تم مسح الذاكرة المؤقتة وإعادة تحميل اللغات.",
+    "db_info": "📂 <b>معلومات قاعدة البيانات</b>\n\n💾 الحجم: <b>{{dbSize}}</b>\n📦 الإصدار: <b>{{version}}</b>",
+    "logs_info": "📝 <b>ملفات السجلات</b>\n\n{{files}}",
+    "backup_info": "💾 <b>نسخة احتياطية من قاعدة البيانات</b>\n\n📁 المسار: <code>{{path}}</code>\n💾 الحجم: <b>{{size}}</b>\n\nاستخدم أدوات الخادم لنسخ ملف قاعدة البيانات.",
+    "export_done": "📤 تم تصدير <b>{{count}}</b> مستخدم إلى CSV.",
+    "mandatory_info": "📡 <b>القناة الإلزامية</b>\n\nاضبط MANDATORY_CHANNEL في ملف .env الخاص بك.",
+    "settings_info": "⚙️ <b>الإعدادات</b>\n\n🌐 تطبيق الويب: <code>{{webAppUrl}}</code>\n🤖 اسم البوت: <b>{{botName}}</b>\n📝 مستوى السجل: <b>{{logLevel}}</b>\n🖥 البيئة: <b>{{nodeEnv}}</b>"
+  }
+}

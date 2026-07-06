@@ -1,0 +1,96 @@
+{
+  "start": {
+    "select_country": "🌍 <b>환영합니다!</b>\n\n계속하려면 국가를 선택하세요:",
+    "search_prompt": "🔍 국가 이름을 입력하여 검색하세요:",
+    "search_results": "{{count}}개의 결과를 찾았습니다. 국가를 선택하세요:",
+    "search_not_found": "❌ <b>{{query}}</b>에 대한 국가를 찾을 수 없습니다.\n\n다시 시도해 주세요."
+  },
+  "main": {
+    "welcome": "📺 <b>{{botName}}</b>\n\nTelegram에서 모든 국가의 라이브 TV 채널을 시청하세요!\n\n시청을 시작하려면 아래 버튼을 누르세요:"
+  },
+  "buttons": {
+    "watch_tv": "📺 TV 시청",
+    "back": "◀️ 뒤로",
+    "cancel": "❌ 취소",
+    "search": "🔍 검색",
+    "close": "✖️ 닫기",
+    "next": "▶️ 다음",
+    "prev": "◀️ 이전",
+    "confirm": "✅ 확인",
+    "refresh": "🔄 새로고침"
+  },
+  "help": {
+    "text": "ℹ️ <b>도움말</b>\n\n<b>명령어:</b>\n/start — 봇 시작 및 언어 선택\n/help — 이 도움말 메시지 표시\n/about — 이 봇에 대해\n/language — 언어 변경\n/ping — 봇 상태 확인\n\n<b>사용 방법:</b>\n1. /start 를 누르세요\n2. 국가를 선택하세요\n3. <b>📺 TV 시청</b>을 탭하세요\n4. 라이브 채널을 즐기세요!"
+  },
+  "about": {
+    "text": "📺 <b>{{botName}}</b>\n\n<b>버전:</b> {{version}}\n<b>플랫폼:</b> Telegram Web App\n\nTelegram에서 전 세계 라이브 TV 채널을 시청하세요.\n\n<a href=\"https://famelack.com\">famelack.com</a> 제공"
+  },
+  "language": {
+    "select": "🌐 <b>언어 선택</b>\n\n원하는 언어를 선택하세요:",
+    "changed": "✅ 언어가 <b>한국어</b>로 변경되었습니다",
+    "changed_notify": "언어가 변경되었습니다!"
+  },
+  "ping": {
+    "measuring": "⏱ 측정 중...",
+    "result": "🏓 <b>퐁!</b>\n\n⚡ 레이턴시: <b>{{latency}}ms</b>\n⏱ 가동 시간: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 버전: <b>{{version}}</b>"
+  },
+  "errors": {
+    "banned": "🚫 이 봇의 사용이 금지되었습니다.",
+    "not_admin": "⛔ 접근이 거부되었습니다. 관리자만 사용 가능합니다.",
+    "generic": "⚠️ 문제가 발생했습니다. 다시 시도해 주세요.",
+    "flood_wait": "⏳ 메시지가 너무 많습니다! 천천히 보내주세요.",
+    "rate_limit": "⏳ 요청이 너무 많습니다. {{seconds}}초 기다려 주세요."
+  },
+  "admin": {
+    "panel_title": "⚙️ <b>관리자 패널</b>\n\n작업을 선택하세요:",
+    "btn_stats": "📊 통계",
+    "btn_broadcast": "📢 브로드캐스트",
+    "btn_users": "👥 사용자",
+    "btn_analytics": "📈 분석",
+    "btn_ban": "🚫 차단",
+    "btn_unban": "✅ 차단 해제",
+    "btn_search_user": "🔍 사용자 검색",
+    "btn_send_msg": "📨 메시지 전송",
+    "btn_mandatory_channel": "📡 필수 채널",
+    "btn_settings": "⚙️ 설정",
+    "btn_db": "📂 데이터베이스",
+    "btn_logs": "📝 로그",
+    "btn_restart": "♻️ 재시작",
+    "btn_backup": "💾 백업",
+    "btn_export": "📤 사용자 내보내기",
+    "btn_cache": "🔄 캐시 새로고침",
+    "btn_close": "✖️ 닫기",
+    "btn_confirm_broadcast": "✅ 브로드캐스트 확인",
+    "stats_text": "📊 <b>통계</b>\n\n👥 <b>사용자</b>\n├ 총: <b>{{total}}</b>\n├ 오늘: <b>{{today}}</b>\n├ 어제: <b>{{yesterday}}</b>\n├ 주간: <b>{{weekly}}</b>\n└ 월간: <b>{{monthly}}</b>\n\n🟢 <b>활성</b>\n├ 오늘: <b>{{activeToday}}</b>\n├ 이번 주: <b>{{activeWeek}}</b>\n└ 이번 달: <b>{{activeMonth}}</b>\n\n🚫 차단됨: <b>{{banned}}</b>\n⭐ 프리미엄: <b>{{premium}}</b>\n\n💾 DB 크기: <b>{{dbSize}}</b>\n⏱ 가동 시간: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 버전: <b>{{version}}</b>",
+    "analytics_text": "📈 <b>분석</b>\n\n👥 총 사용자: <b>{{total}}</b>\n⭐ 프리미엄: <b>{{premium}}</b>\n🚫 차단됨: <b>{{banned}}</b>\n\n🟢 오늘 활성: <b>{{activeToday}}</b>\n📅 이번 주 활성: <b>{{activeWeek}}</b>\n📆 이번 달 활성: <b>{{activeMonth}}</b>",
+    "users_list": "👥 <b>사용자</b> (총 {{total}}명)\n\n사용자를 선택하세요:",
+    "user_info": "👤 <b>사용자 정보</b>\n\n🆔 ID: <code>{{id}}</code>\n👤 이름: <b>{{name}}</b>\n📛 사용자명: {{username}}\n🌐 언어: <b>{{language}}</b>\n🌍 국가: <b>{{country}}</b>\n📅 가입일: <b>{{joinDate}}</b>\n🕐 마지막 확인: <b>{{lastSeen}}</b>\n🚫 차단됨: {{banned}}\n⭐ 프리미엄: {{premium}}\n📊 액션: <b>{{actions}}</b>",
+    "user_not_found": "❌ 사용자를 찾을 수 없습니다.",
+    "invalid_id": "❌ 잘못된 ID입니다. 유효한 숫자 ID를 입력하세요.",
+    "ban_prompt": "🚫 차단할 사용자 ID를 입력하세요 (선택적으로 이유 추가):\n\n예: <code>123456789 spam</code>",
+    "ban_success": "✅ 사용자 <code>{{id}}</code>가 차단되었습니다.",
+    "unban_prompt": "✅ 차단 해제할 사용자 ID를 입력하세요:",
+    "unban_success": "✅ 사용자 <code>{{id}}</code>의 차단이 해제되었습니다.",
+    "search_user_prompt": "🔍 사용자 ID, 사용자명 또는 이름을 입력하세요:",
+    "send_msg_prompt": "📨 대상 사용자 ID를 입력하세요:",
+    "send_msg_content_prompt": "📨 이제 이 사용자에게 전달할 메시지를 보내세요:",
+    "send_msg_success": "✅ 사용자 <code>{{id}}</code>에게 메시지를 보냈습니다.",
+    "send_msg_failed": "❌ <code>{{id}}</code>에게 메시지 전송 실패: {{error}}",
+    "broadcast_prompt": "📢 모든 사용자에게 브로드캐스트할 메시지를 보내세요:\n\n지원: 텍스트, 사진, 동영상, 오디오, 음성, 애니메이션, 스티커, 문서, 투표 등.",
+    "broadcast_confirm": "📢 <b>브로드캐스트 확인</b>\n\n메시지가 <b>{{total}}</b>명의 사용자에게 전송됩니다.\n\n확실합니까?",
+    "broadcast_expired": "⚠️ 브로드캐스트 세션이 만료되었습니다. 다시 시작하세요.",
+    "broadcast_started": "📢 <b>{{total}}</b>명의 사용자에게 브로드캐스트 중...\n\n잠시 기다려 주세요.",
+    "broadcast_progress": "📢 <b>브로드캐스트 중...</b>\n\n{{bar}}\n\n✅ 성공: <b>{{success}}</b>\n❌ 실패: <b>{{failed}}</b>\n📊 진행: <b>{{done}}/{{total}}</b>",
+    "broadcast_done": "✅ <b>브로드캐스트 완료!</b>\n\n📊 총: <b>{{total}}</b>\n✅ 성공: <b>{{success}}</b>\n❌ 실패: <b>{{failed}}</b>",
+    "broadcast_cancelled": "❌ 브로드캐스트가 취소되었습니다.",
+    "restart_notice": "♻️ 봇을 재시작하는 중...",
+    "restarting": "재시작 중...",
+    "cache_cleared": "✅ 캐시가 지워지고 로케일이 다시 로드되었습니다.",
+    "db_info": "📂 <b>데이터베이스 정보</b>\n\n💾 크기: <b>{{dbSize}}</b>\n📦 버전: <b>{{version}}</b>",
+    "logs_info": "📝 <b>로그 파일</b>\n\n{{files}}",
+    "backup_info": "💾 <b>데이터베이스 백업</b>\n\n📁 경로: <code>{{path}}</code>\n💾 크기: <b>{{size}}</b>",
+    "export_done": "📤 <b>{{count}}</b>명의 사용자를 CSV로 내보냈습니다.",
+    "mandatory_info": "📡 <b>필수 채널</b>\n\n.env 파일에 MANDATORY_CHANNEL을 설정하세요.",
+    "settings_info": "⚙️ <b>설정</b>\n\n🌐 Web App: <code>{{webAppUrl}}</code>\n🤖 봇 이름: <b>{{botName}}</b>\n📝 로그 레벨: <b>{{logLevel}}</b>\n🖥 환경: <b>{{nodeEnv}}</b>"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "start": {
+    "select_country": "🌍 <b>Hoş geldiniz!</b>\n\nDevam etmek için ülkenizi seçin:",
+    "search_prompt": "🔍 Ülke adı yazın:",
+    "search_results": "{{count}} sonuç bulundu. Ülkenizi seçin:",
+    "search_not_found": "❌ <b>{{query}}</b> için ülke bulunamadı.\n\nLütfen tekrar deneyin."
+  },
+  "main": {
+    "welcome": "📺 <b>{{botName}}</b>\n\nTelegram üzerinden herhangi bir ülkenin canlı TV kanallarını izleyin!\n\nİzlemeye başlamak için aşağıdaki butona basın:"
+  },
+  "buttons": {
+    "watch_tv": "📺 TV İzle",
+    "back": "◀️ Geri",
+    "cancel": "❌ İptal",
+    "search": "🔍 Ara",
+    "close": "✖️ Kapat",
+    "next": "▶️ Sonraki",
+    "prev": "◀️ Önceki",
+    "confirm": "✅ Onayla",
+    "refresh": "🔄 Yenile"
+  },
+  "help": {
+    "text": "ℹ️ <b>Yardım</b>\n\n<b>Komutlar:</b>\n/start — Botu başlat ve dil seç\n/help — Bu yardım mesajını göster\n/about — Bot hakkında\n/language — Dili değiştir\n/ping — Bot durumunu kontrol et\n\n<b>Nasıl kullanılır:</b>\n1. /start'a basın\n2. Ülkenizi seçin\n3. <b>📺 TV İzle</b>'ye basın\n4. Canlı kanalların keyfini çıkarın!\n\nSorun mu var? @support ile iletişime geçin"
+  },
+  "about": {
+    "text": "📺 <b>{{botName}}</b>\n\n<b>Sürüm:</b> {{version}}\n<b>Platform:</b> Telegram Web App\n\nDünyanın dört bir yanından canlı TV kanallarını Telegram içinde izleyin.\n\n<a href=\"https://famelack.com\">famelack.com</a> tarafından desteklenmektedir"
+  },
+  "language": {
+    "select": "🌐 <b>Dil Seçin</b>\n\nTercih ettiğiniz dili seçin:",
+    "changed": "✅ Dil <b>Türkçe</b> olarak değiştirildi",
+    "changed_notify": "Dil değiştirildi!"
+  },
+  "ping": {
+    "measuring": "⏱ Ölçülüyor...",
+    "result": "🏓 <b>Pong!</b>\n\n⚡ Gecikme: <b>{{latency}}ms</b>\n⏱ Çalışma süresi: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 Sürüm: <b>{{version}}</b>"
+  },
+  "errors": {
+    "banned": "🚫 Bu bottan yasaklandınız.",
+    "not_admin": "⛔ Erişim reddedildi. Yalnızca yöneticiler için.",
+    "generic": "⚠️ Bir şeyler yanlış gitti. Lütfen tekrar deneyin.",
+    "flood_wait": "⏳ Çok fazla mesaj! Lütfen yavaşlayın.",
+    "rate_limit": "⏳ Çok fazla istek. Lütfen {{seconds}} saniye bekleyin."
+  },
+  "admin": {
+    "panel_title": "⚙️ <b>Yönetici Paneli</b>\n\nBir işlem seçin:",
+    "btn_stats": "📊 İstatistikler",
+    "btn_broadcast": "📢 Yayın",
+    "btn_users": "👥 Kullanıcılar",
+    "btn_analytics": "📈 Analitik",
+    "btn_ban": "🚫 Yasakla",
+    "btn_unban": "✅ Yasağı Kaldır",
+    "btn_search_user": "🔍 Kullanıcı Ara",
+    "btn_send_msg": "📨 Mesaj Gönder",
+    "btn_mandatory_channel": "📡 Zorunlu Kanal",
+    "btn_settings": "⚙️ Ayarlar",
+    "btn_db": "📂 Veritabanı",
+    "btn_logs": "📝 Günlükler",
+    "btn_restart": "♻️ Yeniden Başlat",
+    "btn_backup": "💾 Yedek",
+    "btn_export": "📤 Kullanıcıları Dışa Aktar",
+    "btn_cache": "🔄 Önbelleği Temizle",
+    "btn_close": "✖️ Kapat",
+    "btn_confirm_broadcast": "✅ Yayını Onayla",
+    "stats_text": "📊 <b>İstatistikler</b>\n\n👥 <b>Kullanıcılar</b>\n├ Toplam: <b>{{total}}</b>\n├ Bugün: <b>{{today}}</b>\n├ Dün: <b>{{yesterday}}</b>\n├ Haftalık: <b>{{weekly}}</b>\n└ Aylık: <b>{{monthly}}</b>\n\n🟢 <b>Aktif</b>\n├ Bugün: <b>{{activeToday}}</b>\n├ Bu Hafta: <b>{{activeWeek}}</b>\n└ Bu Ay: <b>{{activeMonth}}</b>\n\n🚫 Yasaklı: <b>{{banned}}</b>\n⭐ Premium: <b>{{premium}}</b>\n\n💾 DB Boyutu: <b>{{dbSize}}</b>\n⏱ Çalışma Süresi: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 Sürüm: <b>{{version}}</b>",
+    "analytics_text": "📈 <b>Analitik</b>\n\n👥 Toplam Kullanıcı: <b>{{total}}</b>\n⭐ Premium: <b>{{premium}}</b>\n🚫 Yasaklı: <b>{{banned}}</b>\n\n🟢 Bugün Aktif: <b>{{activeToday}}</b>\n📅 Bu Hafta Aktif: <b>{{activeWeek}}</b>\n📆 Bu Ay Aktif: <b>{{activeMonth}}</b>",
+    "users_list": "👥 <b>Kullanıcılar</b> (toplam {{total}})\n\nDetayları görmek için seçin:",
+    "user_info": "👤 <b>Kullanıcı Bilgisi</b>\n\n🆔 ID: <code>{{id}}</code>\n👤 Ad: <b>{{name}}</b>\n📛 Kullanıcı adı: {{username}}\n🌐 Dil: <b>{{language}}</b>\n🌍 Ülke: <b>{{country}}</b>\n📅 Katılım: <b>{{joinDate}}</b>\n🕐 Son Görülme: <b>{{lastSeen}}</b>\n🚫 Yasaklı: {{banned}}\n⭐ Premium: {{premium}}\n📊 İşlemler: <b>{{actions}}</b>",
+    "user_not_found": "❌ Kullanıcı bulunamadı.",
+    "invalid_id": "❌ Geçersiz ID. Lütfen sayısal bir ID girin.",
+    "ban_prompt": "🚫 Yasaklamak istediğiniz kullanıcının ID'sini girin (isteğe bağlı: sebep ekleyin):\n\nÖrnek: <code>123456789 spam</code>",
+    "ban_success": "✅ Kullanıcı <code>{{id}}</code> yasaklandı.",
+    "unban_prompt": "✅ Yasağı kaldırmak istediğiniz kullanıcının ID'sini girin:",
+    "unban_success": "✅ Kullanıcı <code>{{id}}</code> yasağı kaldırıldı.",
+    "search_user_prompt": "🔍 Kullanıcı ID, kullanıcı adı veya ad girin:",
+    "send_msg_prompt": "📨 Hedef kullanıcı ID'sini girin:",
+    "send_msg_content_prompt": "📨 Şimdi bu kullanıcıya iletmek istediğiniz mesajı gönderin:",
+    "send_msg_success": "✅ Mesaj <code>{{id}}</code> kullanıcısına gönderildi.",
+    "send_msg_failed": "❌ Mesaj <code>{{id}}</code> kullanıcısına gönderilemedi: {{error}}",
+    "broadcast_prompt": "📢 Tüm kullanıcılara yayınlamak istediğiniz mesajı gönderin:\n\nDesteklenenler: metin, fotoğraf, video, ses, sesli mesaj, animasyon, çıkartma, belge, anket ve daha fazlası.",
+    "broadcast_confirm": "📢 <b>Yayın Onayı</b>\n\nMesaj <b>{{total}}</b> kullanıcıya gönderilecek.\n\nEmin misiniz?",
+    "broadcast_expired": "⚠️ Yayın oturumu sona erdi. Lütfen tekrar başlayın.",
+    "broadcast_started": "📢 <b>{{total}}</b> kullanıcıya yayın yapılıyor...\n\nLütfen bekleyin.",
+    "broadcast_progress": "📢 <b>Yayınlanıyor...</b>\n\n{{bar}}\n\n✅ Başarılı: <b>{{success}}</b>\n❌ Başarısız: <b>{{failed}}</b>\n📊 İlerleme: <b>{{done}}/{{total}}</b>",
+    "broadcast_done": "✅ <b>Yayın Tamamlandı!</b>\n\n📊 Toplam: <b>{{total}}</b>\n✅ Başarılı: <b>{{success}}</b>\n❌ Başarısız: <b>{{failed}}</b>",
+    "broadcast_cancelled": "❌ Yayın iptal edildi.",
+    "restart_notice": "♻️ Bot yeniden başlatılıyor...",
+    "restarting": "Yeniden başlatılıyor...",
+    "cache_cleared": "✅ Önbellek temizlendi ve diller yeniden yüklendi.",
+    "db_info": "📂 <b>Veritabanı Bilgisi</b>\n\n💾 Boyut: <b>{{dbSize}}</b>\n📦 Sürüm: <b>{{version}}</b>",
+    "logs_info": "📝 <b>Günlük Dosyaları</b>\n\n{{files}}",
+    "backup_info": "💾 <b>Veritabanı Yedeği</b>\n\n📁 Yol: <code>{{path}}</code>\n💾 Boyut: <b>{{size}}</b>\n\nDB dosyasını kopyalamak için sunucu araçlarını kullanın.",
+    "export_done": "📤 <b>{{count}}</b> kullanıcı CSV'ye aktarıldı.",
+    "mandatory_info": "📡 <b>Zorunlu Kanal</b>\n\n.env dosyasında MANDATORY_CHANNEL'ı ayarlayın.",
+    "settings_info": "⚙️ <b>Ayarlar</b>\n\n🌐 Web App: <code>{{webAppUrl}}</code>\n🤖 Bot Adı: <b>{{botName}}</b>\n📝 Günlük Seviyesi: <b>{{logLevel}}</b>\n🖥 Ortam: <b>{{nodeEnv}}</b>"
+  }
+}

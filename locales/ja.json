@@ -1,0 +1,96 @@
+{
+  "start": {
+    "select_country": "🌍 <b>ようこそ！</b>\n\n続けるには国を選択してください：",
+    "search_prompt": "🔍 国名を入力して検索：",
+    "search_results": "{{count}}件の結果が見つかりました。国を選択してください：",
+    "search_not_found": "❌ <b>{{query}}</b> の国が見つかりませんでした。\n\nもう一度お試しください。"
+  },
+  "main": {
+    "welcome": "📺 <b>{{botName}}</b>\n\nTelegram内で任意の国のライブTVチャンネルを視聴できます！\n\n視聴を開始するには下のボタンを押してください："
+  },
+  "buttons": {
+    "watch_tv": "📺 TVを見る",
+    "back": "◀️ 戻る",
+    "cancel": "❌ キャンセル",
+    "search": "🔍 検索",
+    "close": "✖️ 閉じる",
+    "next": "▶️ 次へ",
+    "prev": "◀️ 前へ",
+    "confirm": "✅ 確認",
+    "refresh": "🔄 更新"
+  },
+  "help": {
+    "text": "ℹ️ <b>ヘルプ</b>\n\n<b>コマンド：</b>\n/start — ボットを起動して言語を選択\n/help — このヘルプを表示\n/about — このボットについて\n/language — 言語を変更\n/ping — ボットの状態を確認\n\n<b>使い方：</b>\n1. /start を押す\n2. 国を選択する\n3. <b>📺 TVを見る</b> をタップ\n4. ライブチャンネルをお楽しみください！"
+  },
+  "about": {
+    "text": "📺 <b>{{botName}}</b>\n\n<b>バージョン：</b> {{version}}\n<b>プラットフォーム：</b> Telegram Web App\n\nTelegram内で世界中のライブTVチャンネルを視聴できます。\n\n<a href=\"https://famelack.com\">famelack.com</a> が提供"
+  },
+  "language": {
+    "select": "🌐 <b>言語を選択</b>\n\nご希望の言語を選択してください：",
+    "changed": "✅ 言語が<b>日本語</b>に変更されました",
+    "changed_notify": "言語が変更されました！"
+  },
+  "ping": {
+    "measuring": "⏱ 計測中...",
+    "result": "🏓 <b>ポン！</b>\n\n⚡ レイテンシ: <b>{{latency}}ms</b>\n⏱ 稼働時間: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 バージョン: <b>{{version}}</b>"
+  },
+  "errors": {
+    "banned": "🚫 このボットの使用が禁止されています。",
+    "not_admin": "⛔ アクセスが拒否されました。管理者のみ。",
+    "generic": "⚠️ 問題が発生しました。もう一度お試しください。",
+    "flood_wait": "⏳ メッセージが多すぎます！少し待ってください。",
+    "rate_limit": "⏳ リクエストが多すぎます。{{seconds}}秒お待ちください。"
+  },
+  "admin": {
+    "panel_title": "⚙️ <b>管理パネル</b>\n\nアクションを選択：",
+    "btn_stats": "📊 統計",
+    "btn_broadcast": "📢 ブロードキャスト",
+    "btn_users": "👥 ユーザー",
+    "btn_analytics": "📈 分析",
+    "btn_ban": "🚫 BAN",
+    "btn_unban": "✅ BAN解除",
+    "btn_search_user": "🔍 ユーザー検索",
+    "btn_send_msg": "📨 メッセージ送信",
+    "btn_mandatory_channel": "📡 必須チャンネル",
+    "btn_settings": "⚙️ 設定",
+    "btn_db": "📂 データベース",
+    "btn_logs": "📝 ログ",
+    "btn_restart": "♻️ 再起動",
+    "btn_backup": "💾 バックアップ",
+    "btn_export": "📤 ユーザーエクスポート",
+    "btn_cache": "🔄 キャッシュ更新",
+    "btn_close": "✖️ 閉じる",
+    "btn_confirm_broadcast": "✅ ブロードキャスト確認",
+    "stats_text": "📊 <b>統計</b>\n\n👥 <b>ユーザー</b>\n├ 合計: <b>{{total}}</b>\n├ 今日: <b>{{today}}</b>\n├ 昨日: <b>{{yesterday}}</b>\n├ 週間: <b>{{weekly}}</b>\n└ 月間: <b>{{monthly}}</b>\n\n🟢 <b>アクティブ</b>\n├ 今日: <b>{{activeToday}}</b>\n├ 今週: <b>{{activeWeek}}</b>\n└ 今月: <b>{{activeMonth}}</b>\n\n🚫 BAN: <b>{{banned}}</b>\n⭐ プレミアム: <b>{{premium}}</b>\n\n💾 DBサイズ: <b>{{dbSize}}</b>\n⏱ 稼働時間: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 バージョン: <b>{{version}}</b>",
+    "analytics_text": "📈 <b>分析</b>\n\n👥 総ユーザー数: <b>{{total}}</b>\n⭐ プレミアム: <b>{{premium}}</b>\n🚫 BAN: <b>{{banned}}</b>\n\n🟢 今日のアクティブ: <b>{{activeToday}}</b>\n📅 今週のアクティブ: <b>{{activeWeek}}</b>\n📆 今月のアクティブ: <b>{{activeMonth}}</b>",
+    "users_list": "👥 <b>ユーザー</b> (合計{{total}}人)\n\nユーザーを選択：",
+    "user_info": "👤 <b>ユーザー情報</b>\n\n🆔 ID: <code>{{id}}</code>\n👤 名前: <b>{{name}}</b>\n📛 ユーザー名: {{username}}\n🌐 言語: <b>{{language}}</b>\n🌍 国: <b>{{country}}</b>\n📅 参加日: <b>{{joinDate}}</b>\n🕐 最終確認: <b>{{lastSeen}}</b>\n🚫 BAN: {{banned}}\n⭐ プレミアム: {{premium}}\n📊 アクション: <b>{{actions}}</b>",
+    "user_not_found": "❌ ユーザーが見つかりません。",
+    "invalid_id": "❌ 無効なID。有効な数値IDを入力してください。",
+    "ban_prompt": "🚫 BANするユーザーのIDを入力（オプションで理由を追加）：\n\n例: <code>123456789 spam</code>",
+    "ban_success": "✅ ユーザー <code>{{id}}</code> をBANしました。",
+    "unban_prompt": "✅ BAN解除するユーザーのIDを入力：",
+    "unban_success": "✅ ユーザー <code>{{id}}</code> のBANを解除しました。",
+    "search_user_prompt": "🔍 ユーザーID、ユーザー名、または名前を入力：",
+    "send_msg_prompt": "📨 ターゲットユーザーのIDを入力：",
+    "send_msg_content_prompt": "📨 このユーザーに転送するメッセージを送信：",
+    "send_msg_success": "✅ ユーザー <code>{{id}}</code> にメッセージを送信しました。",
+    "send_msg_failed": "❌ <code>{{id}}</code> へのメッセージ送信に失敗：{{error}}",
+    "broadcast_prompt": "📢 全ユーザーにブロードキャストするメッセージを送信：\n\n対応：テキスト、写真、動画、音声、音声メッセージ、アニメーション、スタンプ、ドキュメント、投票など。",
+    "broadcast_confirm": "📢 <b>ブロードキャスト確認</b>\n\nメッセージが<b>{{total}}</b>人のユーザーに送信されます。\n\nよろしいですか？",
+    "broadcast_expired": "⚠️ ブロードキャストセッションが期限切れです。再度開始してください。",
+    "broadcast_started": "📢 <b>{{total}}</b>人のユーザーにブロードキャスト中...\n\nお待ちください。",
+    "broadcast_progress": "📢 <b>ブロードキャスト中...</b>\n\n{{bar}}\n\n✅ 成功: <b>{{success}}</b>\n❌ 失敗: <b>{{failed}}</b>\n📊 進捗: <b>{{done}}/{{total}}</b>",
+    "broadcast_done": "✅ <b>ブロードキャスト完了！</b>\n\n📊 合計: <b>{{total}}</b>\n✅ 成功: <b>{{success}}</b>\n❌ 失敗: <b>{{failed}}</b>",
+    "broadcast_cancelled": "❌ ブロードキャストがキャンセルされました。",
+    "restart_notice": "♻️ ボットを再起動中...",
+    "restarting": "再起動中...",
+    "cache_cleared": "✅ キャッシュをクリアし、ロケールを再読み込みしました。",
+    "db_info": "📂 <b>データベース情報</b>\n\n💾 サイズ: <b>{{dbSize}}</b>\n📦 バージョン: <b>{{version}}</b>",
+    "logs_info": "📝 <b>ログファイル</b>\n\n{{files}}",
+    "backup_info": "💾 <b>データベースバックアップ</b>\n\n📁 パス: <code>{{path}}</code>\n💾 サイズ: <b>{{size}}</b>",
+    "export_done": "📤 <b>{{count}}</b>人のユーザーをCSVにエクスポートしました。",
+    "mandatory_info": "📡 <b>必須チャンネル</b>\n\n.envファイルにMANDATORY_CHANNELを設定してください。",
+    "settings_info": "⚙️ <b>設定</b>\n\n🌐 Web App: <code>{{webAppUrl}}</code>\n🤖 ボット名: <b>{{botName}}</b>\n📝 ログレベル: <b>{{logLevel}}</b>\n🖥 環境: <b>{{nodeEnv}}</b>"
+  }
+}

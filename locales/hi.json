@@ -1,0 +1,96 @@
+{
+  "start": {
+    "select_country": "🌍 <b>स्वागत है!</b>\n\nजारी रखने के लिए कृपया अपना देश चुनें:",
+    "search_prompt": "🔍 खोज के लिए देश का नाम टाइप करें:",
+    "search_results": "{{count}} परिणाम मिले। अपना देश चुनें:",
+    "search_not_found": "❌ <b>{{query}}</b> के लिए कोई देश नहीं मिला।\n\nकृपया पुनः प्रयास करें।"
+  },
+  "main": {
+    "welcome": "📺 <b>{{botName}}</b>\n\nTelegram में सीधे किसी भी देश के लाइव टीवी चैनल देखें!\n\nदेखना शुरू करने के लिए नीचे का बटन दबाएं:"
+  },
+  "buttons": {
+    "watch_tv": "📺 TV देखें",
+    "back": "◀️ वापस",
+    "cancel": "❌ रद्द करें",
+    "search": "🔍 खोजें",
+    "close": "✖️ बंद करें",
+    "next": "▶️ अगला",
+    "prev": "◀️ पिछला",
+    "confirm": "✅ पुष्टि करें",
+    "refresh": "🔄 ताज़ा करें"
+  },
+  "help": {
+    "text": "ℹ️ <b>सहायता</b>\n\n<b>आदेश:</b>\n/start — बॉट शुरू करें और भाषा चुनें\n/help — यह सहायता संदेश दिखाएं\n/about — इस बॉट के बारे में\n/language — भाषा बदलें\n/ping — बॉट की स्थिति जांचें\n\n<b>कैसे उपयोग करें:</b>\n1. /start दबाएं\n2. अपना देश चुनें\n3. <b>📺 TV देखें</b> टैप करें\n4. लाइव चैनल का आनंद लें!"
+  },
+  "about": {
+    "text": "📺 <b>{{botName}}</b>\n\n<b>संस्करण:</b> {{version}}\n<b>प्लेटफ़ॉर्म:</b> Telegram Web App\n\nTelegram में सीधे दुनिया भर के लाइव टीवी चैनल देखें।\n\n<a href=\"https://famelack.com\">famelack.com</a> द्वारा संचालित"
+  },
+  "language": {
+    "select": "🌐 <b>भाषा चुनें</b>\n\nअपनी पसंदीदा भाषा चुनें:",
+    "changed": "✅ भाषा <b>हिन्दी</b> में बदली गई",
+    "changed_notify": "भाषा बदली गई!"
+  },
+  "ping": {
+    "measuring": "⏱ माप रहा है...",
+    "result": "🏓 <b>पोंग!</b>\n\n⚡ विलंबता: <b>{{latency}}ms</b>\n⏱ अपटाइम: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 संस्करण: <b>{{version}}</b>"
+  },
+  "errors": {
+    "banned": "🚫 आपको इस बॉट का उपयोग करने से प्रतिबंधित किया गया है।",
+    "not_admin": "⛔ पहुंच अस्वीकृत। केवल व्यवस्थापकों के लिए।",
+    "generic": "⚠️ कुछ गलत हो गया। कृपया पुनः प्रयास करें।",
+    "flood_wait": "⏳ बहुत सारे संदेश! कृपया धीमे करें।",
+    "rate_limit": "⏳ बहुत सारे अनुरोध। कृपया {{seconds}} सेकंड प्रतीक्षा करें।"
+  },
+  "admin": {
+    "panel_title": "⚙️ <b>एडमिन पैनल</b>\n\nकोई कार्य चुनें:",
+    "btn_stats": "📊 आंकड़े",
+    "btn_broadcast": "📢 प्रसारण",
+    "btn_users": "👥 उपयोगकर्ता",
+    "btn_analytics": "📈 विश्लेषण",
+    "btn_ban": "🚫 प्रतिबंध",
+    "btn_unban": "✅ प्रतिबंध हटाएं",
+    "btn_search_user": "🔍 उपयोगकर्ता खोजें",
+    "btn_send_msg": "📨 संदेश भेजें",
+    "btn_mandatory_channel": "📡 अनिवार्य चैनल",
+    "btn_settings": "⚙️ सेटिंग्स",
+    "btn_db": "📂 डेटाबेस",
+    "btn_logs": "📝 लॉग",
+    "btn_restart": "♻️ पुनः आरंभ",
+    "btn_backup": "💾 बैकअप",
+    "btn_export": "📤 उपयोगकर्ता निर्यात",
+    "btn_cache": "🔄 कैश रीफ्रेश",
+    "btn_close": "✖️ बंद करें",
+    "btn_confirm_broadcast": "✅ प्रसारण की पुष्टि करें",
+    "stats_text": "📊 <b>आंकड़े</b>\n\n👥 <b>उपयोगकर्ता</b>\n├ कुल: <b>{{total}}</b>\n├ आज: <b>{{today}}</b>\n├ कल: <b>{{yesterday}}</b>\n├ साप्ताहिक: <b>{{weekly}}</b>\n└ मासिक: <b>{{monthly}}</b>\n\n🟢 <b>सक्रिय</b>\n├ आज: <b>{{activeToday}}</b>\n├ इस सप्ताह: <b>{{activeWeek}}</b>\n└ इस महीने: <b>{{activeMonth}}</b>\n\n🚫 प्रतिबंधित: <b>{{banned}}</b>\n⭐ प्रीमियम: <b>{{premium}}</b>\n\n💾 DB आकार: <b>{{dbSize}}</b>\n⏱ अपटाइम: <b>{{uptime}}</b>\n💾 RAM: <b>{{ram}}</b>\n🖥 CPU: <b>{{cpu}}</b>\n📦 संस्करण: <b>{{version}}</b>",
+    "analytics_text": "📈 <b>विश्लेषण</b>\n\n👥 कुल उपयोगकर्ता: <b>{{total}}</b>\n⭐ प्रीमियम: <b>{{premium}}</b>\n🚫 प्रतिबंधित: <b>{{banned}}</b>\n\n🟢 आज सक्रिय: <b>{{activeToday}}</b>\n📅 इस सप्ताह सक्रिय: <b>{{activeWeek}}</b>\n📆 इस महीने सक्रिय: <b>{{activeMonth}}</b>",
+    "users_list": "👥 <b>उपयोगकर्ता</b> (कुल {{total}})\n\nविवरण देखने के लिए चुनें:",
+    "user_info": "👤 <b>उपयोगकर्ता जानकारी</b>\n\n🆔 ID: <code>{{id}}</code>\n👤 नाम: <b>{{name}}</b>\n📛 यूजरनेम: {{username}}\n🌐 भाषा: <b>{{language}}</b>\n🌍 देश: <b>{{country}}</b>\n📅 शामिल: <b>{{joinDate}}</b>\n🕐 अंतिम दिखे: <b>{{lastSeen}}</b>\n🚫 प्रतिबंधित: {{banned}}\n⭐ प्रीमियम: {{premium}}\n📊 क्रियाएं: <b>{{actions}}</b>",
+    "user_not_found": "❌ उपयोगकर्ता नहीं मिला।",
+    "invalid_id": "❌ अमान्य ID। कृपया वैध संख्यात्मक ID दर्ज करें।",
+    "ban_prompt": "🚫 प्रतिबंधित करने के लिए उपयोगकर्ता ID दर्ज करें (वैकल्पिक रूप से कारण जोड़ें):\n\nउदाहरण: <code>123456789 spam</code>",
+    "ban_success": "✅ उपयोगकर्ता <code>{{id}}</code> को प्रतिबंधित किया गया।",
+    "unban_prompt": "✅ प्रतिबंध हटाने के लिए उपयोगकर्ता ID दर्ज करें:",
+    "unban_success": "✅ उपयोगकर्ता <code>{{id}}</code> का प्रतिबंध हटाया गया।",
+    "search_user_prompt": "🔍 उपयोगकर्ता ID, यूजरनेम या नाम दर्ज करें:",
+    "send_msg_prompt": "📨 लक्ष्य उपयोगकर्ता ID दर्ज करें:",
+    "send_msg_content_prompt": "📨 अब इस उपयोगकर्ता को भेजने वाला संदेश भेजें:",
+    "send_msg_success": "✅ संदेश उपयोगकर्ता <code>{{id}}</code> को भेजा गया।",
+    "send_msg_failed": "❌ <code>{{id}}</code> को संदेश भेजने में विफल: {{error}}",
+    "broadcast_prompt": "📢 सभी उपयोगकर्ताओं को प्रसारित करने के लिए संदेश भेजें:\n\nसमर्थित: टेक्स्ट, फोटो, वीडियो, ऑडियो, वॉइस, एनिमेशन, स्टिकर, दस्तावेज़, पोल और अधिक।",
+    "broadcast_confirm": "📢 <b>प्रसारण पुष्टि</b>\n\nसंदेश <b>{{total}}</b> उपयोगकर्ताओं को भेजा जाएगा।\n\nक्या आप सुनिश्चित हैं?",
+    "broadcast_expired": "⚠️ प्रसारण सत्र समाप्त हो गया। कृपया फिर से शुरू करें।",
+    "broadcast_started": "📢 <b>{{total}}</b> उपयोगकर्ताओं को प्रसारित हो रहा है...\n\nकृपया प्रतीक्षा करें।",
+    "broadcast_progress": "📢 <b>प्रसारण हो रहा है...</b>\n\n{{bar}}\n\n✅ सफल: <b>{{success}}</b>\n❌ विफल: <b>{{failed}}</b>\n📊 प्रगति: <b>{{done}}/{{total}}</b>",
+    "broadcast_done": "✅ <b>प्रसारण पूर्ण!</b>\n\n📊 कुल: <b>{{total}}</b>\n✅ सफल: <b>{{success}}</b>\n❌ विफल: <b>{{failed}}</b>",
+    "broadcast_cancelled": "❌ प्रसारण रद्द किया गया।",
+    "restart_notice": "♻️ बॉट पुनः आरंभ हो रहा है...",
+    "restarting": "पुनः आरंभ हो रहा है...",
+    "cache_cleared": "✅ कैश साफ किया और भाषाएं पुनः लोड की गईं।",
+    "db_info": "📂 <b>डेटाबेस जानकारी</b>\n\n💾 आकार: <b>{{dbSize}}</b>\n📦 संस्करण: <b>{{version}}</b>",
+    "logs_info": "📝 <b>लॉग फ़ाइलें</b>\n\n{{files}}",
+    "backup_info": "💾 <b>डेटाबेस बैकअप</b>\n\n📁 पथ: <code>{{path}}</code>\n💾 आकार: <b>{{size}}</b>",
+    "export_done": "📤 <b>{{count}}</b> उपयोगकर्ताओं को CSV में निर्यात किया गया।",
+    "mandatory_info": "📡 <b>अनिवार्य चैनल</b>\n\nअपनी .env फ़ाइल में MANDATORY_CHANNEL सेट करें।",
+    "settings_info": "⚙️ <b>सेटिंग्स</b>\n\n🌐 Web App: <code>{{webAppUrl}}</code>\n🤖 बॉट नाम: <b>{{botName}}</b>\n📝 लॉग स्तर: <b>{{logLevel}}</b>\n🖥 वातावरण: <b>{{nodeEnv}}</b>"
+  }
+}
